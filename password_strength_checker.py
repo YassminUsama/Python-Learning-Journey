@@ -10,11 +10,11 @@ has_number=False
 long_enough=len(password)>=8
 
 for char in password:
-    if char.isupper():
+     if char.isupper():
         has_upper=True
-    if char.islower():
+     if char.islower():
         has_lower=True
-    if char.isdigit():
+     if char.isdigit():
         has_number=True
 
 if  long_enough and has_upper and has_lower and has_number:
